@@ -1,4 +1,4 @@
-FROM python:3.13-alpine
+FROM python:3.14.0rc1-alpine
 
 RUN echo '@edge-community https://dl-cdn.alpinelinux.org/alpine/edge/community' >> /etc/apk/repositories \
         && \
